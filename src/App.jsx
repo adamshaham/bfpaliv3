@@ -6,6 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import Landingpage from "./pages/Landingpage";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+
 
 function App() {
   const action = useNavigationType();
@@ -46,6 +48,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Landingpage />} />
+      <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
     </Routes>
   );
 }

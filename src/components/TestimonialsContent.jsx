@@ -45,7 +45,7 @@ const TestimonialsContent = ({ className = "" }) => {
           <div className="w-[533.3px] h-[306.7px] relative rounded-[13.33px] box-border hidden max-w-full border-[2.7px] border-solid border-silver" />
           <FrameComponent
             ellipse175="/ellipse-175-1@2x.png"
-            chrisKiley="Yessica Christy"
+            chrisKiley="Kim Christy"
             unitedStates="New York"
             group1161="/group-1161-1.svg"
             propFlex="unset"
